@@ -1,0 +1,11 @@
+* Image Captioning Using Pytorch 
+
+** CNN Encoder (Uses VGG16)
+** RNN Decoder (Uses LSTM)
+** TODO Image Captioning with attention
+- Paper : 
+
+** Resources
+*** Video
+*** Article 
+*** Code

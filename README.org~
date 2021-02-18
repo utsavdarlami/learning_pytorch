@@ -1,0 +1,4 @@
+* Image Captioning Using Pytorch 
+
+** CNN Encoder (Uses VGG16)
+** RNN Decoder (Uses LSTM)

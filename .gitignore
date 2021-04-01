@@ -18,9 +18,11 @@ ipython_config.py
 ./pytorch_dataset/
 ./runs/
 
-./image_caption/__pycache__/
+image_caption/__pycache__/
 
-./image_caption/flickr8k/
-./torchtext_tut/.data/
+image_caption/flickr8k/
+torchtext_tut/data/
+torchtext_tut/mydata/
+torchtext_tut/wmt/
 
 **~

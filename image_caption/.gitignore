@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+flickr8k/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+/.gitignore~

@@ -1,9 +1,26 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+# ignoring zip
+**.zip
+**.pdf
 
-flickr8k/
-
-# Jupyter Notebook
+# jupyter notebooks
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-/.gitignore~
+# IPython
+profile_default/
+ipython_config.py
+
+#
+*.pth
+*.pth.tar
+
+# folders
+./pytorch_dataset/
+./runs/
+
+./image_caption/__pycache__/
+
+./image_caption/flickr8k/
+./torchtext_tut/.data/
+
+**~

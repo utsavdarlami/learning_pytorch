@@ -1,0 +1,29 @@
+* Graph Attention Network
+
+#+DOWNLOADED: screenshot @ 2022-03-02 22:44:27
+#+CAPTION:  
+#+attr_html: :width 700 :height 400 :target /blogs
+[[file:Graph_Attention_Network/2022-03-02_22-44-27_screenshot.png]]
+
+#+DOWNLOADED: screenshot @ 2022-03-02 22:47:13
+#+CAPTION:  
+
+[[file:Graph_Attention_Network/2022-03-02_22-47-13_screenshot.png]]
+
+** How to reshape the embeds to pass the attention $a$
+
+#+DOWNLOADED: screenshot @ 2022-03-02 23:05:53
+#+CAPTION:  
+#+attr_html: :width 700 :height 400 :target /blogs
+[[file:Graph_Attention_Network/2022-03-02_23-05-53_screenshot.png]]
+
+#+begin_src python
+out_embed_size = 4
+N = 2
+h = # [N, 4]
+a_input = torch.cat([h.repeat(1, N).view(N * N, -1), h.repeat(N, 1)], dim=1).view(N, -1, 2 * out_embed_size)
+#+end_src
+** From Pytorch geometric
+
+#+DOWNLOADED: screenshot @ 2022-03-02 23:24:48
+[[file:Graph_Attention_Network/2022-03-02_23-24-48_screenshot.png]]

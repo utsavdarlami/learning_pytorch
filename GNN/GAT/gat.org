@@ -69,12 +69,4 @@ class DummyGATLayer(gnn.MessagePassing):
 
         return msg
 #+end_src
-#+DOWNLOADED: screenshot @ 2022-03-02 22:44:27
-#+CAPTION:  
-#+attr_html: :width 700 :height 400 :target /blogs
-[[file:Graph_Attention_Network/2022-03-02_22-44-27_screenshot.png]]
 
-#+DOWNLOADED: screenshot @ 2022-03-02 22:47:13
-#+CAPTION:  
-
-[[file:Graph_Attention_Network/2022-03-02_22-47-13_screenshot.png]]
